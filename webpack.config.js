@@ -74,7 +74,7 @@ module.exports = (env, argv) => {  // eslint-disable-line max-lines-per-function
       "path": path.resolve(__dirname, "dist")
     },
     "plugins": [
-      new CleanWebpackPlugin(["dist"]),
+      new CleanWebpackPlugin(),
       new webpack.DefinePlugin({
         "DEBUG": JSON.stringify(DEBUG)
       }),

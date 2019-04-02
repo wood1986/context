@@ -5,7 +5,8 @@ module.exports = {
     "browser": true,
     "jasmine": true,
     "node": true,
-    "worker": true
+    "worker": true,
+    "es6": true
   },
   "extends": ["eslint:recommended", "plugin:react/recommended"],
   "globals": {
@@ -49,6 +50,7 @@ module.exports = {
     "no-mixed-requires": 0,
     "sort-imports": 1,
     "react-hooks/rules-of-hooks": 2,
+    "react-hooks/exhaustive-deps": 2,
 
     "no-async-promise-executor": 2,
     "no-await-in-loop": 2,
@@ -196,7 +198,7 @@ module.exports = {
     "semi": 2,
     "semi-spacing": 2,
     "semi-style": 2,
-    "sort-keys": 2,
+    "sort-keys": 1,
     "space-before-blocks": 2,
     "space-before-function-paren": 2,
     "space-in-parens": 2,
